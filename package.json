@@ -10,7 +10,7 @@
     "coverage": "./node_modules/.bin/jest --coverage",
     "dev": "./node_modules/.bin/tsc --watch",
     "lint": "./node_modules/.bin/tslint -c tslint.json --project test/_config/tsconfig.json \"src/**/*.ts\" \"test/**/*.ts\"",
-    "prepare": "npm run buid"
+    "prepare": "npm run build"
   },
   "author": "Thomas Dondorf",
   "repository": {
